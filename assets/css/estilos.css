@@ -1,0 +1,49 @@
+ 
+/* 
+    Created on : 08-06-2020, 13:02:36
+    Author     : Daniel Huenul
+*/
+
+.formulario {
+    margin-top: 125px;
+    min-height: 700px; 
+}
+
+.ayuda {
+    margin-top: 125px;
+    min-height: 400px;
+}
+
+.ayudamenu {
+    line-height: 38px !important;
+}
+
+.ayudabtn{
+    line-height: 94px !important;
+}
+
+.ico-btn{
+    color: white;
+    width: 500px;
+    font-size: 25px;
+} 
+
+/* estilos de calendario*/
+.ui-datepicker{
+    background: white !important; 
+}
+
+.logIco{
+    font-size: 55px;
+}
+
+.contLog{
+    font-size: 40px;
+    text-align: center;
+}
+
+.ayudaLoad {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+} 

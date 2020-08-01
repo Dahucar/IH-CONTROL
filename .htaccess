@@ -1,0 +1,13 @@
+<IfModule mod_rewrite.c>
+    #activando el rewrite
+    RewriteEngine on
+    #indicando ruta de acceso para un elemton no encontradp
+    ErrorDocument 404 http://localhost/Inmuebles-Herrera/error/
+
+    #la URL no se muestra si es un directorio y fichero
+    RewriteCond %{SCRIPT_FILENAME} !-d
+    RewriteCond %{SCRIPT_FILENAME} !-f
+
+    RewriteRule ^(.*)/(.*) index.php?controller=$1&action=$2 
+
+</IfModule>
